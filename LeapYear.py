@@ -13,7 +13,7 @@ Answer:
   def is_leap(year):
     leap = True
     
-    if year%4==0:
+    if 2000>year and year%4==0:
         leap = True
     elif 2000<=year and year%400==0:
        leap = True
